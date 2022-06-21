@@ -42,7 +42,7 @@ namespace Desktop_Archiver
             string musicDir = @"E:\Musik\Playlist Youtube Part " + musicFolder.ToString() + @"\";
 
             //[DYNAMIC] if needed, just append new file format here
-            string[] extArray = new string[] { "jpg", "jpeg", "png", "mp4", "zip", "gif", "pdf", "txt", "mp3", "rar", "webp", "webm"};
+            string[] extArray = new string[] { "jpg", "jpeg", "png", "mp4", "zip", "gif", "pdf", "txt", "mp3", "rar", "webp", "webm" };
 
             //indexes: 0:jpg  1:jpeg  2:png   3:mp4   4:zip   5:gif   6:pdf   7:txt   8:mp3   9:rar   10:webp   11:webm
             int[] cArray = new int[extArray.Length];
